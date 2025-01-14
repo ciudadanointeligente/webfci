@@ -1,6 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import astrologo from '../assets/images/book1.jpeg';
 ---
 
 <Layout>
+  <main class="p-2">
+
+    <h1 class="divide-gray-900 font-extrabold text-2xl text-center">Welcome to WebFCI</h1>
+    <Image src={astrologo} alt="Astro Logo" class="mx-auto" />
+  </main>
 </Layout>
