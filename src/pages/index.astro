@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
 import astrologo from '../assets/images/book1.jpeg';
 ---
@@ -9,5 +9,8 @@ import astrologo from '../assets/images/book1.jpeg';
 
     <h1 class="divide-gray-900 font-extrabold text-2xl text-center">Welcome to WebFCI</h1>
     <Image src={astrologo} alt="Astro Logo" class="mx-auto" />
+    <p class="font">
+  
+    </p>
   </main>
 </Layout>
